@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+      
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Virtue@1998
+      - POSTGRES_DB=nest_graphql_db
